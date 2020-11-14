@@ -1,5 +1,5 @@
 ---
-title: Home
+title: TurtleBD
 ---
 <section class="posts">
 	{% for post in paginator.posts %}
@@ -11,20 +11,20 @@ title: Home
 
 			{{ post.excerpt }}
 
-			<p><a class="button" href="{{ site.baseurl }}{{ post.url }}">Read more</a></p>
+			<p><a class="button" href="{{ site.baseurl }}{{ post.url }}">বিস্তারিত দেখুন</a></p>
 		</article>
 	{% endfor %}
 
 	{% if paginator.total_pages > 1 %}
 		<div class="pagination">
 			{% if paginator.previous_page %}
-				<a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="previous btn">&larr; Newer posts</a>
+				<a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="previous btn">&larr; নতুন পোষ্ট</a>
 			{% endif %}
 
 			<span class="page_number ">{{ paginator.page }} of {{ paginator.total_pages }}</span>
 
 			{% if paginator.next_page %}
-				<a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next btn">Older posts &rarr;</a>
+				<a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next btn">পুরাতন পোষ্ট &rarr;</a>
 			{% endif %}
 		</div>
 	{% endif %}
