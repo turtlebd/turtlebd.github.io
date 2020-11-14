@@ -1,8 +1,8 @@
-- name: Home
+- name: হোমপেজ
   link: /
-- name: About
+- name: ব্লক কোড
+  link: /blocks/
+- name: আমার সম্পর্কে
   link: /about/
-- name: Recipes
-  link: /recipes/
-- name: Contact
-  link: /contact/
+# - name: যোগাযোগ
+#   link: /contact/
