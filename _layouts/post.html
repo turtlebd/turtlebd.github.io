@@ -11,23 +11,23 @@ layout: default
 		{{ content }}
 	</div>
 
-	<ul id="block" class="recipe-overview">
-		<li title="Servings">{% include block-icon.html icon="quantity" %}<span>{{ page.block.servings }}</span></li>
-		<li title="Prep Time">{% include block-icon.html icon="time" %}<span>{{ page.block.prep }}</span></li>
-		<li title="Cook Time">{% include block-icon.html icon="cook" %}<span>{{ page.block.cook }}</span></li>
-	</ul>
+	<!--<ul id="block" class="recipe-overview">-->
+	<!--	<li title="Servings">{% include block-icon.html icon="quantity" %}<span>{{ page.block.servings }}</span></li>-->
+	<!--	<li title="Prep Time">{% include block-icon.html icon="time" %}<span>{{ page.block.prep }}</span></li>-->
+	<!--	<li title="Cook Time">{% include block-icon.html icon="cook" %}<span>{{ page.block.cook }}</span></li>-->
+	<!--</ul>-->
 
-	<div class="recipe-contents">
-		<div class="ingredients">
-			<h2>Ingredients</h2>
-			{{ page.block.ingredients_markdown | markdownify }}
-		</div>
+	<!--<div class="recipe-contents">-->
+	<!--	<div class="ingredients">-->
+	<!--		<h2>Ingredients</h2>-->
+	<!--		{{ page.block.ingredients_markdown | markdownify }}-->
+	<!--	</div>-->
 
-		<div class="directions">
-			<h2>Directions</h2>
-			{{ page.block.directions_markdown | markdownify }}
-		</div>
-	</div>
+	<!--	<div class="directions">-->
+	<!--		<h2>Directions</h2>-->
+	<!--		{{ page.block.directions_markdown | markdownify }}-->
+	<!--	</div>-->
+	<!--</div>-->
 
 	<div class="sharing">
 		{% assign share_url = page.url | absolute_url | cgi_escape %}
