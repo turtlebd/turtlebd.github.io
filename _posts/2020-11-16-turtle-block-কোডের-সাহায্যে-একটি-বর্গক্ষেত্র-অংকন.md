@@ -19,6 +19,7 @@ block:
 
 ![python code](https://i.ibb.co/nC2vtnr/figure-1.jpg)
 
-‌‌‌
+```
 python code
-‌‌‌
+
+```
