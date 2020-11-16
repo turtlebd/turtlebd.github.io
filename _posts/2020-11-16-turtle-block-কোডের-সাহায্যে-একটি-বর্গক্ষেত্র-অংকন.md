@@ -1,11 +1,12 @@
 ---
-date: 2020-11-16
-title: turtle block কোডের সাহায্যে একটি ব্রগক্ষেত্র অংকন
+date: 2020-11-16 00:00:00
+title: turtle block কোডের সাহায্যে একটি বর্গক্ষেত্র অংকন
 categories:
   - সাধারণ আকৃতি
-featured_image: https://i.ibb.co/wzZWdXR/banner-1.jpg
+featured_image: 'https://i.ibb.co/wzZWdXR/banner-1.jpg'
 block:
 ---
+
 আমরা turtle ব্লক কোডের মাধ্যমে একটি ব্রগক্ষেত্র অংকন করবো।
 
 ![figure-1](https://i.ibb.co/wzZWdXR/banner-1.jpg)
