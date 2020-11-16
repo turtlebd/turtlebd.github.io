@@ -7,7 +7,7 @@ featured_image: 'https://i.ibb.co/wzZWdXR/banner-1.jpg'
 block:
 ---
 
-আমরা turtle ব্লক কোডের মাধ্যমে একটি ব্রগক্ষেত্র অংকন করবো।
+আমরা turtle ব্লক কোডের মাধ্যমে একটি বর্রগক্ষেত্র অংকন করবো।
 
 ![figure-1](https://i.ibb.co/wzZWdXR/banner-1.jpg)
 
@@ -19,4 +19,6 @@ block:
 
 ![python code](https://i.ibb.co/nC2vtnr/figure-1.jpg)
 
-Or a caramel sauce.
+‌‌‌
+python code
+‌‌‌
